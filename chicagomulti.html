@@ -116,7 +116,7 @@
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	// TODO: Change the variables below to customize the small multiples interface for your data
-	var polygonJSONFile = 'smallmultiples/data/chicagotractswfood.geojson'
+	var polygonJSONFile = 'smallmultiples/data/chicagoSNAP.geojson'
 	// change the projection if needed *d3.geoAlbers()*
 	var projection = d3.geoAlbers();
 	var widthheightRatio = 0.4;
@@ -147,14 +147,14 @@
   // enter below all variables that should be normalized. If you would like to multiple the variables
 	// with a constant value enter them in multiplyBy array. If there is no need for multiplication,
 	// simply enter 1 for each value in multiplyBy.
- // var attributesToBeNormalized = [att1, att3];
-	//var multiplyBy = [100, 100];
-	//var divideBy = [];
+  var attributesToBeNormalized = [];
+	var multiplyBy = [];
+	var divideBy = [];
 	//if your variables are not raw counts and they are already normalized, comment out above, and
 	//uncomment below:
-	var attributesToBeNormalized = [];
-	var multiplyBy = [];
-	 var divideBy = [];
+	//var attributesToBeNormalized = [];
+	//var multiplyBy = [];
+	// var divideBy = [];
 
 	//DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING
 	////////////////////////////////////////////////////////////////////////////////////////////////
